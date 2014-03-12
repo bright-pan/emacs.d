@@ -1,0 +1,17 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: copyright
+# key: copyright
+# --
+/*********************************************************************
+ * Filename:			`(file-name-nondirectory (buffer-file-name))`
+ *
+ * Description:
+ *
+ * Author:				`user-full-name`
+ * Email:				`user-mail-address`
+ * Date:				`(format-time-string "%Y-%m-%d" (current-time))`
+ *
+ * Modify:
+ *
+ * Copyright (C) `(format-time-string "%Y" (current-time))` Yuettak Co.,Ltd
+ ********************************************************************/
