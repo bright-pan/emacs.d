@@ -20,7 +20,7 @@
  ediff-window-setup-function 'ediff-setup-windows-plain
  grep-highlight-matches t
  grep-scroll-output t
- indent-tabs-mode nil
+;; indent-tabs-mode nil
  line-spacing 0.2
  make-backup-files nil
  mouse-yank-at-point t
@@ -226,10 +226,10 @@
 ;; it will use those keybindings. For this reason, you might prefer to
 ;; use M-S-up and M-S-down, which will work even in lisp modes.
 ;;----------------------------------------------------------------------------
-(require-package 'move-text)
-(move-text-default-bindings)
-(global-set-key [M-S-up] 'move-text-up)
-(global-set-key [M-S-down] 'move-text-down)
+;;(require-package 'move-text)
+;;(move-text-default-bindings)
+;;(global-set-key [M-S-up] 'move-text-up)
+;;(global-set-key [M-S-down] 'move-text-down)
 
 ;;----------------------------------------------------------------------------
 ;; Fix backward-up-list to understand quotes, see http://bit.ly/h7mdIL
