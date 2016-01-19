@@ -28,3 +28,6 @@
 ;; yapf format for python
 (require 'py-yapf)
 (add-hook 'python-mode-hook 'py-yapf-enable-on-save)
+
+;; osc clipboard in emacs terminal
+(osx-clipboard-mode +1)
